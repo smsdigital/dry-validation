@@ -29,3 +29,6 @@ group :benchmarks do
   gem 'benchmark-ips'
   gem 'virtus'
 end
+
+gem 'dry-logic', git: 'https://github.com/smsdigital/dry-logic', branch: 'feature/dsa-1374-ruby-2.7-update'
+gem 'dry-types', git: 'https://github.com/smsdigital/dry-types', branch: 'feature/dsa-1374-ruby-2.7-update'
