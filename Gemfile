@@ -30,5 +30,5 @@ group :benchmarks do
   gem 'virtus'
 end
 
-gem 'dry-logic', git: 'https://github.com/smsdigital/dry-logic', branch: 'feature/dsa-1374-ruby-2.7-update'
-gem 'dry-types', git: 'https://github.com/smsdigital/dry-types', branch: 'feature/dsa-1374-ruby-2.7-update'
+gem 'dry-logic', '~> 0.4.2', git: 'https://github.com/smsdigital/dry-logic', tag: 'v0.4.2.1'
+gem 'dry-types', '~> 0.12.3', git: 'https://github.com/smsdigital/dry-types', tag: 'v0.12.3.1'
